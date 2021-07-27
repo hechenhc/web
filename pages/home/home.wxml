@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container bg_color">
+    <view class="fh prelative">
+      <map
+        id="myMap"
+        style="width: 100%; height: 100%;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        markers="{{markers}}"
+        polygons="{{polygons}}"
+        show-location
+        enable-satellite="{{true}}"
+        data-markers="{{markers}}"
+        bindtap="hideAdd"
+        bindlabeltap="showAdd"
+        enable-overlooking="{{true}}"
+        enable-3D="{{true}}"
+      ></map>
+    </view>
+</view>

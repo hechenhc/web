@@ -1,0 +1,23 @@
+.gjzxWrapper{
+  /* width: ; */
+}
+.xjCard{
+  width: 700rpx;
+  height: 265rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 170rpx;
+  margin: auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0rpx 10rpx 15rpx #c5c5c5;
+}
+.centerTop{
+  height: 280rpx;
+  background-color: #00A0E9;
+}
+
+.listCard{
+  padding-top: 180rpx;
+}

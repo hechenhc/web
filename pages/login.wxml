@@ -1,0 +1,34 @@
+<!--logs.wxml-->
+<view class="container bgColor">
+  <view class="loginInputCard">
+  <view style="width:640rpx">
+    <van-field
+        value="{{ value }}"
+        class="inputBg"
+        customStyle="background-color: #F7F7F7;border-radius: 40rpx;"
+        placeholder-style="color:#999999"
+        placeholder="请输入账号"
+        border="{{ false }}"
+        bind:change="onChange"
+      />
+  </view>
+  <view style="width:640rpx">
+      <van-field
+        value="{{ value }}"
+        class="inputBg"
+        customStyle="background-color: #F7F7F7;border-radius: 40rpx;"
+        placeholder-style="color:#999999"
+        placeholder="请输入密码"
+        password="{{true}}"
+        border="{{ false }}"
+        bind:change="onChange"
+      />
+    </view>
+    <view style="width:640rpx">
+      <van-button type="primary" block="{{true}}" color="#00A0E9" custom-style="border-radius: 40rpx;" bindtap="loginSubmit">登录</van-button>
+    </view>
+    <view style="font-size:24rpx; color:#999999">
+      登录即为默认同意<text style="color:#00A0E9">服务协议</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="gjzxWrapper fh">
+  <view class="centerTop"></view>
+  <view class="xjCard">
+  </view>
+  <view class="listCard">
+    <van-grid border="{{false}}">
+      <van-grid-item icon="photo-o" text="日志内容" />
+      <van-grid-item icon="photo-o" text="遗留问题" />
+      <van-grid-item icon="photo-o" text="问题统计" />
+      <van-grid-item icon="photo-o" text="环境问题" />
+      <van-grid-item icon="photo-o" text="秩序问题" />
+      <van-grid-item icon="photo-o" text="安全消防" />
+      <van-grid-item icon="photo-o" text="入户拜访" />
+      <van-grid-item icon="photo-o" text="“一对一”帮扶" />
+    </van-grid>
+  </view>
+</view>

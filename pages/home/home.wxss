@@ -1,0 +1,12 @@
+
+.searchStyle{
+  z-index: 99;
+  position: absolute;
+  width: 94%;
+  top: 1%;
+  border: 1px solid;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius:10rpx
+}

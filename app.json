@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/login",
+    "pages/home/home",
+    "pages/myTask/myTask",
+    "pages/xcfx/xcfx"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xcfx/xcfx",
+        "text": "巡查发现"
+      },
+      {
+        "pagePath": "pages/myTask/myTask",
+        "text": "我的任务"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
